@@ -166,7 +166,7 @@ public:
 		cin >> c1 >> cf1;
 		cout << "No of seats in class 2 and fair of ticket per seat ";
 		cin >> c2 >> cf2;
-		cout << "Date of travel (dd/mm/yyyy)";
+		cout << "Date of travel (dd mm yyyy)";
 		cin >> d >> m >> y;
 	}
 	void display_details()
@@ -371,7 +371,7 @@ void user()
 	}
 	f1.close();
 	if (flag == 0)
-		cout << "Wrong ID or Password";
+		cout << "Wrong ID or Password\n";
 }
 void reserve()
 {
